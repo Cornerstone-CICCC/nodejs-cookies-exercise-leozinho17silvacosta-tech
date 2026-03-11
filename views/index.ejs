@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/profile">Profile</a>
+    </nav>
+    <main>
+        <h1>Welcome to the homepage</h1>
+        <% if (user) { %>
+            <p>Hello, <strong><%= user %></strong>! You are logged in.</p>
+            <a href="/logout">Logout</a>
+        <% } else { %>
+            <p>You're not logged in.</p>
+            <a href="/login">Sign In</a>
+        <% } %>
+    </main>
+</body>
+</html>

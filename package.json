@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-cookies-exercise-leozinho17silvacosta-tech",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/s3e9B_vM)\r # NodeJS - Cookies Exercise",
+  "main": "index.js",
+  "scripts": {
+  "start": "node dist/server.js",
+  "dev": "nodemon src/server.ts",
+  "build": "tsc"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/nodejs-cookies-exercise-leozinho17silvacosta-tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/nodejs-cookies-exercise-leozinho17silvacosta-tech/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/nodejs-cookies-exercise-leozinho17silvacosta-tech#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.4.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
